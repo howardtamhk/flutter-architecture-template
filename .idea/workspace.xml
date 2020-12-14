@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152c4ccc-a3e7-4c7c-b2e5-a103f3a8cbaf" name="Default Changelist" comment="" />
+    <list default="true" id="152c4ccc-a3e7-4c7c-b2e5-a103f3a8cbaf" name="Default Changelist" comment="Flutter init commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +21,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -42,16 +47,48 @@
       <option name="presentableId" value="Default" />
       <updated>1607940537845</updated>
     </task>
+    <task id="LOCAL-00001" summary="Flutter init commit">
+      <created>1607942112518</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607942112518</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Flutter init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flutter init commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="502" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607941897198">
+    <state x="245" y="25" width="950" height="798" key="CommitChangelistDialog2" timestamp="1607942433654">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="502" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1607941897198" />
+    <state x="245" y="25" width="950" height="798" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1607942433654" />
+    <state x="0" y="0" width="1440" height="900" key="MergeDialog" timestamp="1607942416232">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" width="1440" height="900" key="MergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1607942416232" />
+    <state x="356" y="215" key="MultipleFileMergeDialog" timestamp="1607942416346">
+      <screen x="0" y="0" width="1440" height="823" />
+    </state>
+    <state x="356" y="215" key="MultipleFileMergeDialog/0.0.1440.823@0.0.1440.823" timestamp="1607942416346" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1607942138405">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607942138405" />
+    <state x="502" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607942422655">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="502" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1607942422655" />
     <state x="542" y="348" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607941893652">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="542" y="348" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1607941893652" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607942495333">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607942495333" />
   </component>
 </project>
