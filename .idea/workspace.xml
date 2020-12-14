@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152c4ccc-a3e7-4c7c-b2e5-a103f3a8cbaf" name="Default Changelist" comment="Flutter init commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="152c4ccc-a3e7-4c7c-b2e5-a103f3a8cbaf" name="Default Changelist" comment="remove duplicate files">
+      <change afterPath="$PROJECT_DIR$/lib/App.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/environment.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ui/home/home_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+        <option value="stateless_widget" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,17 +42,23 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flutter.prod">
+    <list>
+      <item itemvalue="Flutter.dev" />
+      <item itemvalue="Flutter.stg" />
+      <item itemvalue="Flutter.prod" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,18 +78,67 @@
       <option name="project" value="LOCAL" />
       <updated>1607942112518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitignore">
+      <created>1607942715249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607942715249</updated>
+    </task>
+    <task id="LOCAL-00003" summary="remove duplicate files">
+      <created>1607942753596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607942753596</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Flutter init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flutter init commit" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="remove duplicate files" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove duplicate files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="245" y="25" width="950" height="798" key="CommitChangelistDialog2" timestamp="1607942433654">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="744" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607954350739">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="245" y="25" width="950" height="798" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1607942433654" />
+    <state x="744" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.595.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1607954350739" />
+    <state x="988" y="526" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607945413477">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="988" y="526" key="#com.intellij.fileTypes.FileTypeChooser/2560.595.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1607945413477" />
+    <state x="0" y="0" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1607946634200">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.ide.util.TreeFileChooserDialog/2560.595.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1607946634200" />
+    <state x="1075" y="470" key="AndroidProcessChooserDialog" timestamp="1607954715861">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1075" y="470" key="AndroidProcessChooserDialog/2560.595.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1607954715861" />
+    <state x="436" y="40" width="950" height="798" key="CommitChangelistDialog2" timestamp="1607955654863">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="245" y="25" width="950" height="798" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1607942753393" />
+    <state x="436" y="40" key="CommitChangelistDialog2/2560.595.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1607955654863" />
+    <state width="1259" height="424" key="GridCell.Tab.0.bottom" timestamp="1607955726031">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1259" height="424" key="GridCell.Tab.0.bottom/2560.595.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1607955726031" />
+    <state width="1259" height="424" key="GridCell.Tab.0.center" timestamp="1607955726029">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1259" height="424" key="GridCell.Tab.0.center/2560.595.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1607955726029" />
+    <state width="1259" height="424" key="GridCell.Tab.0.left" timestamp="1607955726028">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1259" height="424" key="GridCell.Tab.0.left/2560.595.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1607955726028" />
+    <state width="1259" height="424" key="GridCell.Tab.0.right" timestamp="1607955726030">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1259" height="424" key="GridCell.Tab.0.right/2560.595.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1607955726030" />
     <state x="0" y="0" width="1440" height="900" key="MergeDialog" timestamp="1607942416232">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -74,10 +147,14 @@
       <screen x="0" y="0" width="1440" height="823" />
     </state>
     <state x="356" y="215" key="MultipleFileMergeDialog/0.0.1440.823@0.0.1440.823" timestamp="1607942416346" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1607942138405">
+    <state x="781" y="356" key="SettingsEditor" timestamp="1607946953497">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="781" y="356" key="SettingsEditor/2560.595.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1607946953497" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1607942755199">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607942138405" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607942755199" />
     <state x="502" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607942422655">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -86,9 +163,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="542" y="348" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1607941893652" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607942495333">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="684" y="314" width="1192" height="1082" key="search.everywhere.popup" timestamp="1607955505683">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607942495333" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607942770467" />
+    <state x="684" y="314" width="1192" height="1082" key="search.everywhere.popup/2560.595.1440.900/0.0.2560.1440@0.0.2560.1440" timestamp="1607955505683" />
   </component>
 </project>
