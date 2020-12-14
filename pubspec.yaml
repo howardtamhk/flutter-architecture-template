@@ -32,12 +32,18 @@ dependencies:
   injectable: ^1.0.5
   get_it: ^5.0.3
 
+  bloc: ^6.1.1
+  flutter_bloc: ^6.1.1
+  freezed_annotation: ^0.12.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   build_runner: ^1.10.9
   injectable_generator: ^1.0.6
+  freezed: ^0.12.5
+
 
 
 # For information on the generic Dart part of this file, see the
