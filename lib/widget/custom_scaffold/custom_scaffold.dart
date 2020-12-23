@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_architecture_template/core/loading/loading_bloc.dart';
-import 'package:flutter_architecture_template/core/loading/loading_state.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:loading_overlay/loading_overlay.dart';
 
 class CustomScaffold extends StatelessWidget {
   CustomScaffold({
@@ -26,35 +22,14 @@ class CustomScaffold extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => LoadingBloc(),
-      child: BlocBuilder<LoadingBloc, LoadingState>(
-        buildWhen: (previous, current) => previous.when(
-          hidden: () => current.when(
-            hidden: () => false,
-            shown: () => true,
-          ),
-          shown: () => current.when(
-            hidden: () => true,
-            shown: () => false,
-          ),
-        ),
-        builder: (context, state) => LoadingOverlay(
-          isLoading: state.when(
-            hidden: () => false,
-            shown: () => true,
-          ),
-          child: Scaffold(
-            key: this.scaffoldKey,
-            appBar: this.appBar,
-            floatingActionButton: _floatingActionButton,
-            bottomNavigationBar: _bottomNavigationBar,
-            body: _hasSafeArea
-                ? SafeArea(child: _buildBody(context))
-                : _buildBody(context),
-          ),
-        ),
-      ),
+    return Scaffold(
+      key: this.scaffoldKey,
+      appBar: this.appBar,
+      floatingActionButton: _floatingActionButton,
+      bottomNavigationBar: _bottomNavigationBar,
+      body: _hasSafeArea
+          ? SafeArea(child: _buildBody(context))
+          : _buildBody(context),
     );
   }
 
