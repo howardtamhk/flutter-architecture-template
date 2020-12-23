@@ -53,14 +53,19 @@ android {
         }
     }
 
+    flavorDimensions "environment"
     productFlavors {
         dev {
+            dimension "environment"
             applicationIdSuffix ".dev"
         }
         stg {
+            dimension "environment"
             applicationIdSuffix ".stg"
         }
-        prod {}
+        prod {
+            dimension "environment"
+        }
     }
 }
 

@@ -1,7 +1,8 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import 'ui/home/home_screen.dart';
+import 'core/route/router.gr.dart';
 
 class App extends StatelessWidget {
   // This widget is the root of your application.
@@ -25,7 +26,7 @@ class App extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen(),
+      builder: ExtendedNavigator.builder(router: AppRouter()),
     );
   }
 }

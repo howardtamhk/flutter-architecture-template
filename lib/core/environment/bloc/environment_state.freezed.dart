@@ -14,8 +14,8 @@ class _$EnvironmentStateTearOff {
   const _$EnvironmentStateTearOff();
 
 // ignore: unused_element
-  init init() {
-    return const init();
+  _init init() {
+    return const _init();
   }
 
 // ignore: unused_element
@@ -50,13 +50,13 @@ mixin _$EnvironmentState {
   });
   @optionalTypeArgs
   TResult map<TResult extends Object>({
-    @required TResult init(init value),
+    @required TResult init(_init value),
     @required TResult loadSuccess(_success value),
     @required TResult loadFailure(_loadFailure value),
   });
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object>({
-    TResult init(init value),
+    TResult init(_init value),
     TResult loadSuccess(_success value),
     TResult loadFailure(_loadFailure value),
     @required TResult orElse(),
@@ -81,24 +81,24 @@ class _$EnvironmentStateCopyWithImpl<$Res>
 }
 
 /// @nodoc
-abstract class $initCopyWith<$Res> {
-  factory $initCopyWith(init value, $Res Function(init) then) =
-      _$initCopyWithImpl<$Res>;
+abstract class _$initCopyWith<$Res> {
+  factory _$initCopyWith(_init value, $Res Function(_init) then) =
+      __$initCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class _$initCopyWithImpl<$Res> extends _$EnvironmentStateCopyWithImpl<$Res>
-    implements $initCopyWith<$Res> {
-  _$initCopyWithImpl(init _value, $Res Function(init) _then)
-      : super(_value, (v) => _then(v as init));
+class __$initCopyWithImpl<$Res> extends _$EnvironmentStateCopyWithImpl<$Res>
+    implements _$initCopyWith<$Res> {
+  __$initCopyWithImpl(_init _value, $Res Function(_init) _then)
+      : super(_value, (v) => _then(v as _init));
 
   @override
-  init get _value => super._value as init;
+  _init get _value => super._value as _init;
 }
 
 /// @nodoc
-class _$init implements init {
-  const _$init();
+class _$_init implements _init {
+  const _$_init();
 
   @override
   String toString() {
@@ -107,7 +107,7 @@ class _$init implements init {
 
   @override
   bool operator ==(dynamic other) {
-    return identical(this, other) || (other is init);
+    return identical(this, other) || (other is _init);
   }
 
   @override
@@ -144,7 +144,7 @@ class _$init implements init {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object>({
-    @required TResult init(init value),
+    @required TResult init(_init value),
     @required TResult loadSuccess(_success value),
     @required TResult loadFailure(_loadFailure value),
   }) {
@@ -157,7 +157,7 @@ class _$init implements init {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object>({
-    TResult init(init value),
+    TResult init(_init value),
     TResult loadSuccess(_success value),
     TResult loadFailure(_loadFailure value),
     @required TResult orElse(),
@@ -170,8 +170,8 @@ class _$init implements init {
   }
 }
 
-abstract class init implements EnvironmentState {
-  const factory init() = _$init;
+abstract class _init implements EnvironmentState {
+  const factory _init() = _$_init;
 }
 
 /// @nodoc
@@ -238,7 +238,7 @@ class _$_success implements _success {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object>({
-    @required TResult init(init value),
+    @required TResult init(_init value),
     @required TResult loadSuccess(_success value),
     @required TResult loadFailure(_loadFailure value),
   }) {
@@ -251,7 +251,7 @@ class _$_success implements _success {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object>({
-    TResult init(init value),
+    TResult init(_init value),
     TResult loadSuccess(_success value),
     TResult loadFailure(_loadFailure value),
     @required TResult orElse(),
@@ -335,7 +335,7 @@ class _$_loadFailure implements _loadFailure {
   @override
   @optionalTypeArgs
   TResult map<TResult extends Object>({
-    @required TResult init(init value),
+    @required TResult init(_init value),
     @required TResult loadSuccess(_success value),
     @required TResult loadFailure(_loadFailure value),
   }) {
@@ -348,7 +348,7 @@ class _$_loadFailure implements _loadFailure {
   @override
   @optionalTypeArgs
   TResult maybeMap<TResult extends Object>({
-    TResult init(init value),
+    TResult init(_init value),
     TResult loadSuccess(_success value),
     TResult loadFailure(_loadFailure value),
     @required TResult orElse(),
