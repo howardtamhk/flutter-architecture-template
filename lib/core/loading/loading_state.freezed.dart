@@ -1,5 +1,5 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
-// ignore_for_file: deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides
 
 part of 'loading_state.dart';
 
@@ -9,49 +9,53 @@ part of 'loading_state.dart';
 
 T _$identity<T>(T value) => value;
 
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
+
 /// @nodoc
 class _$LoadingStateTearOff {
   const _$LoadingStateTearOff();
 
-// ignore: unused_element
   _hidden hidden() {
     return const _hidden();
   }
 
-// ignore: unused_element
   _shown shown() {
     return const _shown();
   }
 }
 
 /// @nodoc
-// ignore: unused_element
 const $LoadingState = _$LoadingStateTearOff();
 
 /// @nodoc
 mixin _$LoadingState {
   @optionalTypeArgs
-  TResult when<TResult extends Object>({
-    @required TResult hidden(),
-    @required TResult shown(),
-  });
+  TResult when<TResult extends Object?>({
+    required TResult Function() hidden,
+    required TResult Function() shown,
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object>({
-    TResult hidden(),
-    TResult shown(),
-    @required TResult orElse(),
-  });
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? hidden,
+    TResult Function()? shown,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
-  TResult map<TResult extends Object>({
-    @required TResult hidden(_hidden value),
-    @required TResult shown(_shown value),
-  });
+  TResult map<TResult extends Object?>({
+    required TResult Function(_hidden value) hidden,
+    required TResult Function(_shown value) shown,
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
-  TResult maybeMap<TResult extends Object>({
-    TResult hidden(_hidden value),
-    TResult shown(_shown value),
-    @required TResult orElse(),
-  });
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_hidden value)? hidden,
+    TResult Function(_shown value)? shown,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
@@ -105,23 +109,20 @@ class _$_hidden implements _hidden {
 
   @override
   @optionalTypeArgs
-  TResult when<TResult extends Object>({
-    @required TResult hidden(),
-    @required TResult shown(),
+  TResult when<TResult extends Object?>({
+    required TResult Function() hidden,
+    required TResult Function() shown,
   }) {
-    assert(hidden != null);
-    assert(shown != null);
     return hidden();
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object>({
-    TResult hidden(),
-    TResult shown(),
-    @required TResult orElse(),
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? hidden,
+    TResult Function()? shown,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (hidden != null) {
       return hidden();
     }
@@ -130,23 +131,20 @@ class _$_hidden implements _hidden {
 
   @override
   @optionalTypeArgs
-  TResult map<TResult extends Object>({
-    @required TResult hidden(_hidden value),
-    @required TResult shown(_shown value),
+  TResult map<TResult extends Object?>({
+    required TResult Function(_hidden value) hidden,
+    required TResult Function(_shown value) shown,
   }) {
-    assert(hidden != null);
-    assert(shown != null);
     return hidden(this);
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeMap<TResult extends Object>({
-    TResult hidden(_hidden value),
-    TResult shown(_shown value),
-    @required TResult orElse(),
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_hidden value)? hidden,
+    TResult Function(_shown value)? shown,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (hidden != null) {
       return hidden(this);
     }
@@ -193,23 +191,20 @@ class _$_shown implements _shown {
 
   @override
   @optionalTypeArgs
-  TResult when<TResult extends Object>({
-    @required TResult hidden(),
-    @required TResult shown(),
+  TResult when<TResult extends Object?>({
+    required TResult Function() hidden,
+    required TResult Function() shown,
   }) {
-    assert(hidden != null);
-    assert(shown != null);
     return shown();
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object>({
-    TResult hidden(),
-    TResult shown(),
-    @required TResult orElse(),
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? hidden,
+    TResult Function()? shown,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (shown != null) {
       return shown();
     }
@@ -218,23 +213,20 @@ class _$_shown implements _shown {
 
   @override
   @optionalTypeArgs
-  TResult map<TResult extends Object>({
-    @required TResult hidden(_hidden value),
-    @required TResult shown(_shown value),
+  TResult map<TResult extends Object?>({
+    required TResult Function(_hidden value) hidden,
+    required TResult Function(_shown value) shown,
   }) {
-    assert(hidden != null);
-    assert(shown != null);
     return shown(this);
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeMap<TResult extends Object>({
-    TResult hidden(_hidden value),
-    TResult shown(_shown value),
-    @required TResult orElse(),
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_hidden value)? hidden,
+    TResult Function(_shown value)? shown,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (shown != null) {
       return shown(this);
     }

@@ -1,5 +1,5 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
-// ignore_for_file: deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides
 
 part of 'environment_event.dart';
 
@@ -9,11 +9,13 @@ part of 'environment_event.dart';
 
 T _$identity<T>(T value) => value;
 
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
+
 /// @nodoc
 class _$EnvironmentEventTearOff {
   const _$EnvironmentEventTearOff();
 
-// ignore: unused_element
   _environmentEventLoad load(EnvironmentOption option) {
     return _environmentEventLoad(
       option,
@@ -22,33 +24,38 @@ class _$EnvironmentEventTearOff {
 }
 
 /// @nodoc
-// ignore: unused_element
 const $EnvironmentEvent = _$EnvironmentEventTearOff();
 
 /// @nodoc
 mixin _$EnvironmentEvent {
-  EnvironmentOption get option;
+  EnvironmentOption get option => throw _privateConstructorUsedError;
 
   @optionalTypeArgs
-  TResult when<TResult extends Object>({
-    @required TResult load(EnvironmentOption option),
-  });
+  TResult when<TResult extends Object?>({
+    required TResult Function(EnvironmentOption option) load,
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object>({
-    TResult load(EnvironmentOption option),
-    @required TResult orElse(),
-  });
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function(EnvironmentOption option)? load,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
-  TResult map<TResult extends Object>({
-    @required TResult load(_environmentEventLoad value),
-  });
+  TResult map<TResult extends Object?>({
+    required TResult Function(_environmentEventLoad value) load,
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
-  TResult maybeMap<TResult extends Object>({
-    TResult load(_environmentEventLoad value),
-    @required TResult orElse(),
-  });
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_environmentEventLoad value)? load,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
 
-  $EnvironmentEventCopyWith<EnvironmentEvent> get copyWith;
+  @JsonKey(ignore: true)
+  $EnvironmentEventCopyWith<EnvironmentEvent> get copyWith =>
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
@@ -70,10 +77,13 @@ class _$EnvironmentEventCopyWithImpl<$Res>
 
   @override
   $Res call({
-    Object option = freezed,
+    Object? option = freezed,
   }) {
     return _then(_value.copyWith(
-      option: option == freezed ? _value.option : option as EnvironmentOption,
+      option: option == freezed
+          ? _value.option
+          : option // ignore: cast_nullable_to_non_nullable
+              as EnvironmentOption,
     ));
   }
 }
@@ -101,17 +111,20 @@ class __$environmentEventLoadCopyWithImpl<$Res>
 
   @override
   $Res call({
-    Object option = freezed,
+    Object? option = freezed,
   }) {
     return _then(_environmentEventLoad(
-      option == freezed ? _value.option : option as EnvironmentOption,
+      option == freezed
+          ? _value.option
+          : option // ignore: cast_nullable_to_non_nullable
+              as EnvironmentOption,
     ));
   }
 }
 
 /// @nodoc
 class _$_environmentEventLoad implements _environmentEventLoad {
-  const _$_environmentEventLoad(this.option) : assert(option != null);
+  const _$_environmentEventLoad(this.option);
 
   @override
   final EnvironmentOption option;
@@ -133,6 +146,7 @@ class _$_environmentEventLoad implements _environmentEventLoad {
   int get hashCode =>
       runtimeType.hashCode ^ const DeepCollectionEquality().hash(option);
 
+  @JsonKey(ignore: true)
   @override
   _$environmentEventLoadCopyWith<_environmentEventLoad> get copyWith =>
       __$environmentEventLoadCopyWithImpl<_environmentEventLoad>(
@@ -140,20 +154,18 @@ class _$_environmentEventLoad implements _environmentEventLoad {
 
   @override
   @optionalTypeArgs
-  TResult when<TResult extends Object>({
-    @required TResult load(EnvironmentOption option),
+  TResult when<TResult extends Object?>({
+    required TResult Function(EnvironmentOption option) load,
   }) {
-    assert(load != null);
     return load(option);
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object>({
-    TResult load(EnvironmentOption option),
-    @required TResult orElse(),
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function(EnvironmentOption option)? load,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (load != null) {
       return load(option);
     }
@@ -162,20 +174,18 @@ class _$_environmentEventLoad implements _environmentEventLoad {
 
   @override
   @optionalTypeArgs
-  TResult map<TResult extends Object>({
-    @required TResult load(_environmentEventLoad value),
+  TResult map<TResult extends Object?>({
+    required TResult Function(_environmentEventLoad value) load,
   }) {
-    assert(load != null);
     return load(this);
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeMap<TResult extends Object>({
-    TResult load(_environmentEventLoad value),
-    @required TResult orElse(),
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_environmentEventLoad value)? load,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (load != null) {
       return load(this);
     }
@@ -188,7 +198,9 @@ abstract class _environmentEventLoad implements EnvironmentEvent {
       _$_environmentEventLoad;
 
   @override
-  EnvironmentOption get option;
+  EnvironmentOption get option => throw _privateConstructorUsedError;
   @override
-  _$environmentEventLoadCopyWith<_environmentEventLoad> get copyWith;
+  @JsonKey(ignore: true)
+  _$environmentEventLoadCopyWith<_environmentEventLoad> get copyWith =>
+      throw _privateConstructorUsedError;
 }

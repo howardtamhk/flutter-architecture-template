@@ -1,5 +1,5 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
-// ignore_for_file: deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides
 
 part of 'splash_state.dart';
 
@@ -9,67 +9,69 @@ part of 'splash_state.dart';
 
 T _$identity<T>(T value) => value;
 
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
+
 /// @nodoc
 class _$SplashStateTearOff {
   const _$SplashStateTearOff();
 
-// ignore: unused_element
   _init init() {
     return const _init();
   }
 
-// ignore: unused_element
   _loadingSth loadingSth() {
     return const _loadingSth();
   }
 
-// ignore: unused_element
   _loadSthSuccess loadSthSuccess() {
     return const _loadSthSuccess();
   }
 
-// ignore: unused_element
   _loadSthFailure loadSthFailure() {
     return const _loadSthFailure();
   }
 }
 
 /// @nodoc
-// ignore: unused_element
 const $SplashState = _$SplashStateTearOff();
 
 /// @nodoc
 mixin _$SplashState {
   @optionalTypeArgs
-  TResult when<TResult extends Object>({
-    @required TResult init(),
-    @required TResult loadingSth(),
-    @required TResult loadSthSuccess(),
-    @required TResult loadSthFailure(),
-  });
+  TResult when<TResult extends Object?>({
+    required TResult Function() init,
+    required TResult Function() loadingSth,
+    required TResult Function() loadSthSuccess,
+    required TResult Function() loadSthFailure,
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object>({
-    TResult init(),
-    TResult loadingSth(),
-    TResult loadSthSuccess(),
-    TResult loadSthFailure(),
-    @required TResult orElse(),
-  });
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? init,
+    TResult Function()? loadingSth,
+    TResult Function()? loadSthSuccess,
+    TResult Function()? loadSthFailure,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
-  TResult map<TResult extends Object>({
-    @required TResult init(_init value),
-    @required TResult loadingSth(_loadingSth value),
-    @required TResult loadSthSuccess(_loadSthSuccess value),
-    @required TResult loadSthFailure(_loadSthFailure value),
-  });
+  TResult map<TResult extends Object?>({
+    required TResult Function(_init value) init,
+    required TResult Function(_loadingSth value) loadingSth,
+    required TResult Function(_loadSthSuccess value) loadSthSuccess,
+    required TResult Function(_loadSthFailure value) loadSthFailure,
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
-  TResult maybeMap<TResult extends Object>({
-    TResult init(_init value),
-    TResult loadingSth(_loadingSth value),
-    TResult loadSthSuccess(_loadSthSuccess value),
-    TResult loadSthFailure(_loadSthFailure value),
-    @required TResult orElse(),
-  });
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_init value)? init,
+    TResult Function(_loadingSth value)? loadingSth,
+    TResult Function(_loadSthSuccess value)? loadSthSuccess,
+    TResult Function(_loadSthFailure value)? loadSthFailure,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
@@ -123,29 +125,24 @@ class _$_init implements _init {
 
   @override
   @optionalTypeArgs
-  TResult when<TResult extends Object>({
-    @required TResult init(),
-    @required TResult loadingSth(),
-    @required TResult loadSthSuccess(),
-    @required TResult loadSthFailure(),
+  TResult when<TResult extends Object?>({
+    required TResult Function() init,
+    required TResult Function() loadingSth,
+    required TResult Function() loadSthSuccess,
+    required TResult Function() loadSthFailure,
   }) {
-    assert(init != null);
-    assert(loadingSth != null);
-    assert(loadSthSuccess != null);
-    assert(loadSthFailure != null);
     return init();
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object>({
-    TResult init(),
-    TResult loadingSth(),
-    TResult loadSthSuccess(),
-    TResult loadSthFailure(),
-    @required TResult orElse(),
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? init,
+    TResult Function()? loadingSth,
+    TResult Function()? loadSthSuccess,
+    TResult Function()? loadSthFailure,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (init != null) {
       return init();
     }
@@ -154,29 +151,24 @@ class _$_init implements _init {
 
   @override
   @optionalTypeArgs
-  TResult map<TResult extends Object>({
-    @required TResult init(_init value),
-    @required TResult loadingSth(_loadingSth value),
-    @required TResult loadSthSuccess(_loadSthSuccess value),
-    @required TResult loadSthFailure(_loadSthFailure value),
+  TResult map<TResult extends Object?>({
+    required TResult Function(_init value) init,
+    required TResult Function(_loadingSth value) loadingSth,
+    required TResult Function(_loadSthSuccess value) loadSthSuccess,
+    required TResult Function(_loadSthFailure value) loadSthFailure,
   }) {
-    assert(init != null);
-    assert(loadingSth != null);
-    assert(loadSthSuccess != null);
-    assert(loadSthFailure != null);
     return init(this);
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeMap<TResult extends Object>({
-    TResult init(_init value),
-    TResult loadingSth(_loadingSth value),
-    TResult loadSthSuccess(_loadSthSuccess value),
-    TResult loadSthFailure(_loadSthFailure value),
-    @required TResult orElse(),
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_init value)? init,
+    TResult Function(_loadingSth value)? loadingSth,
+    TResult Function(_loadSthSuccess value)? loadSthSuccess,
+    TResult Function(_loadSthFailure value)? loadSthFailure,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (init != null) {
       return init(this);
     }
@@ -225,29 +217,24 @@ class _$_loadingSth implements _loadingSth {
 
   @override
   @optionalTypeArgs
-  TResult when<TResult extends Object>({
-    @required TResult init(),
-    @required TResult loadingSth(),
-    @required TResult loadSthSuccess(),
-    @required TResult loadSthFailure(),
+  TResult when<TResult extends Object?>({
+    required TResult Function() init,
+    required TResult Function() loadingSth,
+    required TResult Function() loadSthSuccess,
+    required TResult Function() loadSthFailure,
   }) {
-    assert(init != null);
-    assert(loadingSth != null);
-    assert(loadSthSuccess != null);
-    assert(loadSthFailure != null);
     return loadingSth();
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object>({
-    TResult init(),
-    TResult loadingSth(),
-    TResult loadSthSuccess(),
-    TResult loadSthFailure(),
-    @required TResult orElse(),
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? init,
+    TResult Function()? loadingSth,
+    TResult Function()? loadSthSuccess,
+    TResult Function()? loadSthFailure,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (loadingSth != null) {
       return loadingSth();
     }
@@ -256,29 +243,24 @@ class _$_loadingSth implements _loadingSth {
 
   @override
   @optionalTypeArgs
-  TResult map<TResult extends Object>({
-    @required TResult init(_init value),
-    @required TResult loadingSth(_loadingSth value),
-    @required TResult loadSthSuccess(_loadSthSuccess value),
-    @required TResult loadSthFailure(_loadSthFailure value),
+  TResult map<TResult extends Object?>({
+    required TResult Function(_init value) init,
+    required TResult Function(_loadingSth value) loadingSth,
+    required TResult Function(_loadSthSuccess value) loadSthSuccess,
+    required TResult Function(_loadSthFailure value) loadSthFailure,
   }) {
-    assert(init != null);
-    assert(loadingSth != null);
-    assert(loadSthSuccess != null);
-    assert(loadSthFailure != null);
     return loadingSth(this);
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeMap<TResult extends Object>({
-    TResult init(_init value),
-    TResult loadingSth(_loadingSth value),
-    TResult loadSthSuccess(_loadSthSuccess value),
-    TResult loadSthFailure(_loadSthFailure value),
-    @required TResult orElse(),
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_init value)? init,
+    TResult Function(_loadingSth value)? loadingSth,
+    TResult Function(_loadSthSuccess value)? loadSthSuccess,
+    TResult Function(_loadSthFailure value)? loadSthFailure,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (loadingSth != null) {
       return loadingSth(this);
     }
@@ -328,29 +310,24 @@ class _$_loadSthSuccess implements _loadSthSuccess {
 
   @override
   @optionalTypeArgs
-  TResult when<TResult extends Object>({
-    @required TResult init(),
-    @required TResult loadingSth(),
-    @required TResult loadSthSuccess(),
-    @required TResult loadSthFailure(),
+  TResult when<TResult extends Object?>({
+    required TResult Function() init,
+    required TResult Function() loadingSth,
+    required TResult Function() loadSthSuccess,
+    required TResult Function() loadSthFailure,
   }) {
-    assert(init != null);
-    assert(loadingSth != null);
-    assert(loadSthSuccess != null);
-    assert(loadSthFailure != null);
     return loadSthSuccess();
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object>({
-    TResult init(),
-    TResult loadingSth(),
-    TResult loadSthSuccess(),
-    TResult loadSthFailure(),
-    @required TResult orElse(),
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? init,
+    TResult Function()? loadingSth,
+    TResult Function()? loadSthSuccess,
+    TResult Function()? loadSthFailure,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (loadSthSuccess != null) {
       return loadSthSuccess();
     }
@@ -359,29 +336,24 @@ class _$_loadSthSuccess implements _loadSthSuccess {
 
   @override
   @optionalTypeArgs
-  TResult map<TResult extends Object>({
-    @required TResult init(_init value),
-    @required TResult loadingSth(_loadingSth value),
-    @required TResult loadSthSuccess(_loadSthSuccess value),
-    @required TResult loadSthFailure(_loadSthFailure value),
+  TResult map<TResult extends Object?>({
+    required TResult Function(_init value) init,
+    required TResult Function(_loadingSth value) loadingSth,
+    required TResult Function(_loadSthSuccess value) loadSthSuccess,
+    required TResult Function(_loadSthFailure value) loadSthFailure,
   }) {
-    assert(init != null);
-    assert(loadingSth != null);
-    assert(loadSthSuccess != null);
-    assert(loadSthFailure != null);
     return loadSthSuccess(this);
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeMap<TResult extends Object>({
-    TResult init(_init value),
-    TResult loadingSth(_loadingSth value),
-    TResult loadSthSuccess(_loadSthSuccess value),
-    TResult loadSthFailure(_loadSthFailure value),
-    @required TResult orElse(),
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_init value)? init,
+    TResult Function(_loadingSth value)? loadingSth,
+    TResult Function(_loadSthSuccess value)? loadSthSuccess,
+    TResult Function(_loadSthFailure value)? loadSthFailure,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (loadSthSuccess != null) {
       return loadSthSuccess(this);
     }
@@ -431,29 +403,24 @@ class _$_loadSthFailure implements _loadSthFailure {
 
   @override
   @optionalTypeArgs
-  TResult when<TResult extends Object>({
-    @required TResult init(),
-    @required TResult loadingSth(),
-    @required TResult loadSthSuccess(),
-    @required TResult loadSthFailure(),
+  TResult when<TResult extends Object?>({
+    required TResult Function() init,
+    required TResult Function() loadingSth,
+    required TResult Function() loadSthSuccess,
+    required TResult Function() loadSthFailure,
   }) {
-    assert(init != null);
-    assert(loadingSth != null);
-    assert(loadSthSuccess != null);
-    assert(loadSthFailure != null);
     return loadSthFailure();
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object>({
-    TResult init(),
-    TResult loadingSth(),
-    TResult loadSthSuccess(),
-    TResult loadSthFailure(),
-    @required TResult orElse(),
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? init,
+    TResult Function()? loadingSth,
+    TResult Function()? loadSthSuccess,
+    TResult Function()? loadSthFailure,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (loadSthFailure != null) {
       return loadSthFailure();
     }
@@ -462,29 +429,24 @@ class _$_loadSthFailure implements _loadSthFailure {
 
   @override
   @optionalTypeArgs
-  TResult map<TResult extends Object>({
-    @required TResult init(_init value),
-    @required TResult loadingSth(_loadingSth value),
-    @required TResult loadSthSuccess(_loadSthSuccess value),
-    @required TResult loadSthFailure(_loadSthFailure value),
+  TResult map<TResult extends Object?>({
+    required TResult Function(_init value) init,
+    required TResult Function(_loadingSth value) loadingSth,
+    required TResult Function(_loadSthSuccess value) loadSthSuccess,
+    required TResult Function(_loadSthFailure value) loadSthFailure,
   }) {
-    assert(init != null);
-    assert(loadingSth != null);
-    assert(loadSthSuccess != null);
-    assert(loadSthFailure != null);
     return loadSthFailure(this);
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeMap<TResult extends Object>({
-    TResult init(_init value),
-    TResult loadingSth(_loadingSth value),
-    TResult loadSthSuccess(_loadSthSuccess value),
-    TResult loadSthFailure(_loadSthFailure value),
-    @required TResult orElse(),
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_init value)? init,
+    TResult Function(_loadingSth value)? loadingSth,
+    TResult Function(_loadSthSuccess value)? loadSthSuccess,
+    TResult Function(_loadSthFailure value)? loadSthFailure,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (loadSthFailure != null) {
       return loadSthFailure(this);
     }

@@ -4,6 +4,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 part 'environment_event.freezed.dart';
 
 @freezed
-abstract class EnvironmentEvent with _$EnvironmentEvent {
-  const factory EnvironmentEvent.load(EnvironmentOption option) = _environmentEventLoad;
+class EnvironmentEvent with _$EnvironmentEvent {
+  const factory EnvironmentEvent.load(EnvironmentOption option) =
+      _environmentEventLoad;
 }

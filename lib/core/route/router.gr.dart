@@ -4,54 +4,39 @@
 // AutoRouteGenerator
 // **************************************************************************
 
-// ignore_for_file: public_member_api_docs
+import 'package:auto_route/auto_route.dart' as _i1;
 
-import 'package:auto_route/auto_route.dart';
-import 'package:flutter/material.dart';
+import '../../ui/home/home_screen.dart' as _i3;
+import '../../ui/splash/splash_screen.dart' as _i2;
 
-import '../../ui/home/home_screen.dart';
-import '../../ui/splash/splash_screen.dart';
+class AppRouter extends _i1.RootStackRouter {
+  AppRouter();
 
-class Routes {
-  static const String splashScreen = '/';
-  static const String homeScreen = '/home';
-  static const all = <String>{
-    splashScreen,
-    homeScreen,
+  @override
+  final Map<String, _i1.PageFactory> pagesMap = {
+    SplashScreenRoute.name: (entry) {
+      return _i1.MaterialPageX(entry: entry, child: _i2.SplashScreen());
+    },
+    HomeScreenRoute.name: (entry) {
+      return _i1.MaterialPageX(entry: entry, child: _i3.HomeScreen());
+    }
   };
+
+  @override
+  List<_i1.RouteConfig> get routes => [
+        _i1.RouteConfig(SplashScreenRoute.name, path: '/'),
+        _i1.RouteConfig(HomeScreenRoute.name, path: '/home')
+      ];
 }
 
-class AppRouter extends RouterBase {
-  @override
-  List<RouteDef> get routes => _routes;
-  final _routes = <RouteDef>[
-    RouteDef(Routes.splashScreen, page: SplashScreen),
-    RouteDef(Routes.homeScreen, page: HomeScreen),
-  ];
-  @override
-  Map<Type, AutoRouteFactory> get pagesMap => _pagesMap;
-  final _pagesMap = <Type, AutoRouteFactory>{
-    SplashScreen: (data) {
-      return MaterialPageRoute<dynamic>(
-        builder: (context) => SplashScreen(),
-        settings: data,
-      );
-    },
-    HomeScreen: (data) {
-      return MaterialPageRoute<dynamic>(
-        builder: (context) => HomeScreen(),
-        settings: data,
-      );
-    },
-  };
+class SplashScreenRoute extends _i1.PageRouteInfo {
+  const SplashScreenRoute() : super(name, path: '/');
+
+  static const String name = 'SplashScreenRoute';
 }
 
-/// ************************************************************************
-/// Navigation helper methods extension
-/// *************************************************************************
+class HomeScreenRoute extends _i1.PageRouteInfo {
+  const HomeScreenRoute() : super(name, path: '/home');
 
-extension AppRouterExtendedNavigatorStateX on ExtendedNavigatorState {
-  Future<dynamic> pushSplashScreen() => push<dynamic>(Routes.splashScreen);
-
-  Future<dynamic> pushHomeScreen() => push<dynamic>(Routes.homeScreen);
+  static const String name = 'HomeScreenRoute';
 }

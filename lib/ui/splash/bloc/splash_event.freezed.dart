@@ -1,5 +1,5 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
-// ignore_for_file: deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides
 
 part of 'splash_event.dart';
 
@@ -9,40 +9,45 @@ part of 'splash_event.dart';
 
 T _$identity<T>(T value) => value;
 
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more informations: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
+
 /// @nodoc
 class _$SplashEventTearOff {
   const _$SplashEventTearOff();
 
-// ignore: unused_element
   _loadSth loadSth() {
     return const _loadSth();
   }
 }
 
 /// @nodoc
-// ignore: unused_element
 const $SplashEvent = _$SplashEventTearOff();
 
 /// @nodoc
 mixin _$SplashEvent {
   @optionalTypeArgs
-  TResult when<TResult extends Object>({
-    @required TResult loadSth(),
-  });
+  TResult when<TResult extends Object?>({
+    required TResult Function() loadSth,
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object>({
-    TResult loadSth(),
-    @required TResult orElse(),
-  });
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? loadSth,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
-  TResult map<TResult extends Object>({
-    @required TResult loadSth(_loadSth value),
-  });
+  TResult map<TResult extends Object?>({
+    required TResult Function(_loadSth value) loadSth,
+  }) =>
+      throw _privateConstructorUsedError;
   @optionalTypeArgs
-  TResult maybeMap<TResult extends Object>({
-    TResult loadSth(_loadSth value),
-    @required TResult orElse(),
-  });
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_loadSth value)? loadSth,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
 }
 
 /// @nodoc
@@ -96,20 +101,18 @@ class _$_loadSth implements _loadSth {
 
   @override
   @optionalTypeArgs
-  TResult when<TResult extends Object>({
-    @required TResult loadSth(),
+  TResult when<TResult extends Object?>({
+    required TResult Function() loadSth,
   }) {
-    assert(loadSth != null);
     return loadSth();
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeWhen<TResult extends Object>({
-    TResult loadSth(),
-    @required TResult orElse(),
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? loadSth,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (loadSth != null) {
       return loadSth();
     }
@@ -118,20 +121,18 @@ class _$_loadSth implements _loadSth {
 
   @override
   @optionalTypeArgs
-  TResult map<TResult extends Object>({
-    @required TResult loadSth(_loadSth value),
+  TResult map<TResult extends Object?>({
+    required TResult Function(_loadSth value) loadSth,
   }) {
-    assert(loadSth != null);
     return loadSth(this);
   }
 
   @override
   @optionalTypeArgs
-  TResult maybeMap<TResult extends Object>({
-    TResult loadSth(_loadSth value),
-    @required TResult orElse(),
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_loadSth value)? loadSth,
+    required TResult orElse(),
   }) {
-    assert(orElse != null);
     if (loadSth != null) {
       return loadSth(this);
     }

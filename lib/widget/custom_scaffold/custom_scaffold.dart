@@ -6,19 +6,19 @@ class CustomScaffold extends StatelessWidget {
     this.appBar,
     bool hasSafeArea = true,
     List<Widget> children = const [],
-    Widget floatingActionButton,
-    Widget bottomNavigationBar,
+    Widget? floatingActionButton,
+    Widget? bottomNavigationBar,
   })  : this._hasSafeArea = hasSafeArea,
         this._children = children,
         this._floatingActionButton = floatingActionButton,
         this._bottomNavigationBar = bottomNavigationBar;
 
-  final Key scaffoldKey;
-  final PreferredSizeWidget appBar;
+  final Key? scaffoldKey;
+  final PreferredSizeWidget? appBar;
   final bool _hasSafeArea;
   final List<Widget> _children;
-  final Widget _floatingActionButton;
-  final Widget _bottomNavigationBar;
+  final Widget? _floatingActionButton;
+  final Widget? _bottomNavigationBar;
 
   @override
   Widget build(BuildContext context) {

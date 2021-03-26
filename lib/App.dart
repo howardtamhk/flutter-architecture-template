@@ -1,4 +1,3 @@
-import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -12,7 +11,8 @@ class App extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    final _appRouter = AppRouter();
+    return MaterialApp.router(
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -30,18 +30,17 @@ class App extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      builder: ExtendedNavigator.builder(
-        router: AppRouter(),
-        builder: (context, routerWidget) => BlocProvider(
-          create: (context) => LoadingBloc(),
-          child: BlocBuilder<LoadingBloc, LoadingState>(
-            builder: (context, state) => LoadingOverlay(
-              isLoading: state.when(
-                hidden: () => false,
-                shown: () => true,
-              ),
-              child: routerWidget,
+      routeInformationParser: _appRouter.defaultRouteParser(),
+      routerDelegate: _appRouter.delegate(),
+      builder: (context, routerWidget) => BlocProvider(
+        create: (context) => LoadingBloc(),
+        child: BlocBuilder<LoadingBloc, LoadingState>(
+          builder: (context, state) => LoadingOverlay(
+            isLoading: state.when(
+              hidden: () => false,
+              shown: () => true,
             ),
+            child: routerWidget ?? Container(),
           ),
         ),
       ),

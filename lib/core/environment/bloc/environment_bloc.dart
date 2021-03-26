@@ -9,7 +9,7 @@ import 'environment_state.dart';
 class EnvironmentBloc extends Bloc<EnvironmentEvent, EnvironmentState> {
   EnvironmentBloc() : super(EnvironmentState.init());
 
-  EnvironmentOption _option;
+  EnvironmentOption _option = EnvironmentOption.prod;
 
   @override
   Stream<EnvironmentState> mapEventToState(
